@@ -22,10 +22,9 @@ import static org.mockito.MockitoAnnotations.initMocks;
 @Config(sdk = 21, constants = BuildConfig.class)
 public class IntentCreatorTest {
 
-    private SearchResultsActivity.IntentCreator underTest;
-
     @Mock
     Context mContext;
+    private SearchResultsActivity.IntentCreator underTest;
 
     @Before
     public void setup() throws Exception {

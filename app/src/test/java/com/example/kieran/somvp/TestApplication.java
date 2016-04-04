@@ -11,7 +11,7 @@ public class TestApplication extends StackOverflowApp {
 
     @Override
     PresentationModule getPresentationModule() {
-        if(mPresentationModule != null) {
+        if (mPresentationModule != null) {
             return mPresentationModule;
         }
         return super.getPresentationModule();

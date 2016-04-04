@@ -4,7 +4,6 @@ import android.support.v4.app.Fragment;
 
 import com.example.kieran.somvp.BuildConfig;
 import com.example.kieran.somvp.R;
-import com.example.kieran.somvp.ui.base.BaseActivity;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -12,9 +11,9 @@ import org.junit.runner.RunWith;
 import org.robolectric.Robolectric;
 import org.robolectric.RobolectricGradleTestRunner;
 import org.robolectric.annotation.Config;
-import org.robolectric.util.ActivityController;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 /**
  * Created by kieran on 04/04/2016.

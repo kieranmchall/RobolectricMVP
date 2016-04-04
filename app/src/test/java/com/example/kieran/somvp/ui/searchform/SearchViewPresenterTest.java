@@ -37,7 +37,7 @@ public class SearchViewPresenterTest {
     }
 
     @Test
-    public void testOnClick_ShouldGetSearchTextFromView () {
+    public void testOnClick_ShouldGetSearchTextFromView() {
         //arrange
         String someSeachText = "some search";
         when(mSearchView.getSearchText()).thenReturn(someSeachText);
