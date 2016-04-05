@@ -28,8 +28,7 @@ import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 
 @RunWith(RobolectricGradleTestRunner.class)
-@Config(constants = BuildConfig.class, manifest = "/main/AndroidManifest.xml", sdk = 21, application = TestApplication.class)
-//have to set SDK to 21 as sdk > 22 not yet working properly with Robolectric :(
+@Config(constants = BuildConfig.class, sdk = 21, application = TestApplication.class)
 public class SearchFragmentTest {
 
     private static final String SOME_SEARCH_TEXT = "some search text";

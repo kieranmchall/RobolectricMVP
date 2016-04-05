@@ -10,7 +10,7 @@ import com.example.kieran.somvp.R;
 /**
  * Created by kieran on 04/04/2016.
  */
-public abstract class BaseActivity extends AppCompatActivity {
+public abstract class BaseFragmentActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
