@@ -1,0 +1,2 @@
+# Robolectric and MVP
+A simple example project using MVP and robolectric tests for the UI.  It's important to not only test that the presenter does it's job, but that it is properly invoked by the view.  And that the view interface is properly implemented.  In order to do this, we need to be able to mock the presenters, so we use a PresenterFactory which is injected.  When testing the view, we override the presenter factory so that it returns mock presenters instead.
